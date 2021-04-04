@@ -12,7 +12,7 @@
     }
     .main1-text {
         width: 100%;
-        margin: 0 4%;
+        /* margin: 0 4%; */
     }
     .main1-img {
         width: 100%;
@@ -29,7 +29,7 @@
 
 @media(max-width:767px) {
     .top-logo {
-        width: 22%;
+        width: 40%;
         margin-top: 7%;
     }
     .header-img1 img {
@@ -73,18 +73,23 @@
         margin: 0;
         padding: 5% 0;
     }
-    .fff{
+    .fff {
         color: #fff;
     }
     .header-me p {
         margin: 0;
     }
-    .margin {
-        /* margin-bottom: 5%; */
+    /* .margin {
+        margin-bottom: 5%;
         display: table;
         background: none;
         margin-bottom: 5%;
         border-bottom: 1px solid #fa465f;
+    } */
+    .main1-ti2 span {
+        margin-bottom: 0;
+        display: table;
+        background: linear-gradient(transparent 50%, #fa465f 60%);
     }
     .inf-co-ti {
         position: absolute;
@@ -121,8 +126,14 @@
         position: relative;
         margin-bottom: 5%;
     }
+    .inf-flex {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 80%;
+    }
     .catListCol .catList {
-        padding:0;
+        padding: 0;
         text-align: center;
         /* margin-right: 30px; */
     }
