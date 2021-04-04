@@ -5,6 +5,8 @@ body {
     /* font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HG明朝E", "MS P明朝", "MS 明朝", serif; */
     background-image: url(https://stellacasting.jp/wp-content/themes/SC_corp/assets/img/dots.png);
     height: 100%;
+    /* font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HG明朝E", "MS P明朝", "MS 明朝", serif; */
+    font-family: Poppins, sans-serif !important;
 }
 
 li {
@@ -307,8 +309,8 @@ h2 {
     background: #f5f5f5;
 }
 
-.ipad{
-display: none;
+.ipad {
+    display: none;
 }
 
 .main1 {
@@ -319,7 +321,7 @@ display: none;
 
 .main1-text {
     width: 55%;
-    margin: 0 4%;
+    /* margin: 0 4%; */
 }
 
 .main1-title {
@@ -337,6 +339,7 @@ display: none;
 
 .main1-1 {
     margin-top: 7%;
+    margin: 0 4%;
 }
 
 .main1-ti {
@@ -349,9 +352,7 @@ display: none;
     margin: 3.5% 0;
 }
 
-.main1-ti2 span {
-
-}
+.main1-ti2 span {}
 
 .main1-me {
     margin: 3.5% 0;
@@ -379,18 +380,26 @@ display: none;
     flex-direction: row-reverse;
 }
 
-.margin {
-    /* margin-bottom: 5% ; */
+.main1-ti2 {
+    margin: 3.5% 0;
+    background-color: #fa465f;
+    padding: 1%;
+    color: #fff;
+}
+
+/* .margin {
+    margin-bottom: 5% ;
     display: table;
     background: linear-gradient(transparent 50%, #fa465f 60%);
-    margin-bottom:3% ;
-}
-.main1-ti2 span {
-    /* margin-bottom: 5% ; */
+    margin-bottom: 3%;
+} */
+
+/* .main1-ti2 span {
+    margin-bottom: 5% ;
     display: table;
     background: linear-gradient(transparent 50%, #fa465f 60%);
-    margin-bottom:5% ;
-}
+    margin-bottom: 5%;
+} */
 
 /*step*/
 
@@ -579,7 +588,7 @@ display: none;
 }
 
 .kijyun {
-    margin: 10% ;
+    margin: 10%;
     position: relative;
     margin: 110px 75px 60px;
     border: 1px solid #d9d9d9;
@@ -641,9 +650,10 @@ dd:before {
     margin-left: 3em;
 }
 
-.price-1{
+.price-1 {
     margin: 10% 0;
 }
+
 .price {
     text-align: center;
 }
@@ -984,12 +994,12 @@ footer {
 }
 
 .footer-me a {}
-.footer-bo{
-text-align: center;
-padding-top: 8%;
-margin: 0;
-color: #fff;
-}
-.footer-bo p{
 
+.footer-bo {
+    text-align: center;
+    padding-top: 8%;
+    margin: 0;
+    color: #fff;
 }
+
+.footer-bo p {}
