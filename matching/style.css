@@ -45,10 +45,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .top-logo-img {
-    /* margin-top: %; */
+    /* margin-top: 100%; */
+    width: 100%;
 }
 
 .top-logo-img img {
+    width: 100%;
     /* margin-top: 2%; */
 }
 
@@ -481,6 +483,10 @@ button:hover {
     }
 }
 @media(max-width:767px){
+    .top-logo {
+        width: 40%;
+        margin-top: 8%;
+    }
     .flex {
         display: block;
         justify-content: space-evenly;
